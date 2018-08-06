@@ -6,6 +6,9 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+using StackExchange.Redis;
+using Newtonsoft.Json;
+using ReflectionAndCaching;
 
 namespace CompareObjects
 {
@@ -34,8 +37,16 @@ namespace CompareObjects
             car3.Engine.Id = "12345";
             car3.Engine.Power = 87;
 
-            Console.WriteLine(ReflectionEqualityComparer.Equality<Car>(car1,car2));
+            Console.WriteLine(ReflectionEqualityComparer.Equality<Car>(car1, car2));
             Console.WriteLine(ReflectionEqualityComparer.Equality<Car>(car1, car3));
+
+            var cacheRedisService = new CacheRedisService<Engine>();
+            Engine engine = new Engine() { Id = "MSTPWRENGN", Power = 220 };
+            Console.WriteLine("Before caching and serialization:" + engine.Id + " " + engine.Power);
+            cacheRedisService.Put(engine, "SuperKey");
+            Console.WriteLine("Get data from redis cache");
+            Console.WriteLine("After caching and deserialization:" + cacheRedisService.Get("SuperKey").Id + " " + cacheRedisService.Get("SuperKey").Power);
+
             Console.ReadLine();
         }
 

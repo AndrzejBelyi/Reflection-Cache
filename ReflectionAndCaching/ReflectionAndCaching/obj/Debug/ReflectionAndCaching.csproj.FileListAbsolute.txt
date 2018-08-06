@@ -5,3 +5,8 @@ c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debu
 c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debug\ReflectionAndCaching.csproj.CoreCompileInputs.cache
 c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debug\ReflectionAndCaching.exe
 c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debug\ReflectionAndCaching.pdb
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\bin\Debug\StackExchange.Redis.dll
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\bin\Debug\StackExchange.Redis.xml
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debug\ReflectionAndCaching.csproj.CopyComplete
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\bin\Debug\Newtonsoft.Json.dll
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\bin\Debug\Newtonsoft.Json.xml

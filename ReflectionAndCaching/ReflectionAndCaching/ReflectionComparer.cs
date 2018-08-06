@@ -37,7 +37,7 @@ namespace CompareObjects
 
                     else if (propertyInfo.PropertyType.IsClass)
                     {
-                        if (!Equality(propertyInfo.GetValue(firstObject, null),(propertyInfo.GetValue(secondObject, null))))
+                        if (!Equality(propertyInfo.GetValue(firstObject, null), (propertyInfo.GetValue(secondObject, null))))
                         {
                             equalityObjects = false;
                         }
