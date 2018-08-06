@@ -1,0 +1,7 @@
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\bin\Debug\ReflectionAndCaching.exe.config
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\bin\Debug\ReflectionAndCaching.exe
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\bin\Debug\ReflectionAndCaching.pdb
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debug\ReflectionAndCaching.csprojAssemblyReference.cache
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debug\ReflectionAndCaching.csproj.CoreCompileInputs.cache
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debug\ReflectionAndCaching.exe
+c:\users\andrzej\source\repos\ReflectionAndCaching\ReflectionAndCaching\obj\Debug\ReflectionAndCaching.pdb
